@@ -1,2 +1,2 @@
 #!/bin/bash
-cat -n | grep -E "[0-9]{4,}[13579]$"
+cat -n | grep -E "[13579]$"
