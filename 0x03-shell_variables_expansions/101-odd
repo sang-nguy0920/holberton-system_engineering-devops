@@ -1,2 +1,2 @@
 #!/bin/bash
-cat | perl -lne '$.%2 or print;' file
+cat -n | grep -E [13579]$
