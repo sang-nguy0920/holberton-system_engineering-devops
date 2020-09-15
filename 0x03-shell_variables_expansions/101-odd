@@ -1,2 +1,2 @@
 #!/bin/bash
-cat -n | grep -E "[13579]$"
+cat -n | perl "^\s+.*" | grep 
