@@ -1,2 +1,2 @@
 #!/bin/bash
-cat | grep '[13579]$' 
+paste -d " " - - | tr " " "\t" | cut -f 1
