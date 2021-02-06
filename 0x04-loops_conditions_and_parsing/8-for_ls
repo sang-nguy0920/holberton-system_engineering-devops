@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Bash script that displays: see 8.
+
+filename=$(ls)
+for file in $filename
+do
+echo "$file" | cut -f2 -d'-'
+done
