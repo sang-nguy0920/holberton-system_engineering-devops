@@ -1,2 +1,4 @@
 #!/usr/bin/env bash
 # Bash script that configures a server to the above requirements
+cat /etc/nginx/sites-available/default > /etc/nginx/sites-enabled/default
+sudo service nginx restart
