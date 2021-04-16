@@ -14,7 +14,7 @@ frontend http-in
 \tdefault_backend web_servers
 backend web_servers
 \tbalance roundrobin
-\tserver 2327-web-01 35.237.166.125
-\tserver 2327-web-02 54.167.61.201
+\tserver 2321-web-01 35.237.133.200
+\tserver 2321-web-02 54.160.239.103
 ' >> /etc/haproxy/haproxy.cfg
 service haproxy restart
